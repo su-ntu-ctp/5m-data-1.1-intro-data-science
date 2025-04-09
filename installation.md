@@ -101,6 +101,8 @@ Conda is a package and environment manager that we will be using throughout this
 
 ### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
+### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
+
 > Windows WSL users, please follow instructions for Linux/Unix
 
 ## DBeaver
