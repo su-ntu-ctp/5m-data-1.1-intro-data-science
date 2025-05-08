@@ -105,13 +105,7 @@ Conda is a package and environment manager that we will be using throughout this
 
 ## DBeaver
 
-We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community (dbeaver-ce).
+We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community 
 
 ### Download and install DBeaver Community [here](https://dbeaver.io/download/)
-
-> Windows WSL users, please follow instructions for Linux/Unix.
->
-> Use the Snap package manager `sudo snap install dbeaver-ce`
-
-
 
