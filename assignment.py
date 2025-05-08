@@ -15,7 +15,15 @@ def fizz_buzz(number):
     >>> fizz_buzz(15)
     'FizzBuzz'
     """
-    return
+
+    if (number % 3 == 0 and number % 5 != 0): # divisible by 3 but not 5
+        return ('Fizz')
+    elif (number % 3 != 0 and number % 5 == 0): # divisible by 5 but not 3 
+        return ('Buzz')
+    elif (number % 3 == 0 and number % 5 == 0): # divisible by 3 and 5
+        return ('FizzBuzz')
+    else: # not divisible by 3 or 5
+        return(number)
 
 
 # Question 2
@@ -30,7 +38,11 @@ def sum_of_squares(numbers):
     >>> sum_of_squares([2, 4, 6])
     56
     """
-    return
+    sum = 0
+    for x in numbers:
+        sum += x * x # square and add to sum
+
+    return (sum)
 
 
 # Question 3
@@ -45,7 +57,12 @@ def count_vowels(string):
     >>> count_vowels("aeiou")
     5
     """
-    return
+    num_vowels = 0
+    for x in string:
+        if (x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u'):
+            num_vowels += 1 # add to num_vowels if character is a vowel
+
+    return (num_vowels)
 
 
 # Question 4
@@ -60,7 +77,20 @@ def count_repeats(string):
     >>> count_repeats("aeiou")
     0
     """
-    return
+
+    char_count_dict = {} # creates a dictionary of the characters to count the number of times the character appears
+    for x in string:
+        if x in char_count_dict: # check if the character is already in the dictionary
+            char_count_dict[x] += 1 # increment if it has already appeared previously
+        else:
+            char_count_dict[x] = 1 # initialize to 1 if this is the first time it appears
+    
+    num_char_repeats = 0
+    for x in char_count_dict.values():
+        if x > 1:
+            num_char_repeats += x # not sure why repeated characters are counted by the number of times it appears. Shouldn't the it be counted as one regardless of how many times it appears?
+    
+    return (num_char_repeats)
 
 
 if __name__ == "__main__":
