@@ -4,7 +4,7 @@
 
 - A: Business understanding
 - B: Data acquisition and understanding
-- C: Model calibration
+- **My answer**C: Model calibration
 - D: Deployment
 
 ### Q2: Which of the following is not a valid command to activate a conda environment (with the name `myenv`) and install packages (`pandas, seaborn`) in it?
