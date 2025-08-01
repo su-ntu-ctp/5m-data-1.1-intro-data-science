@@ -4,7 +4,7 @@
 
 - A: Business understanding
 - B: Data acquisition and understanding
-- C: Model calibration
+**My answer**- C: Model calibration
 - D: Deployment
 
 ### Q2: Which of the following is not a valid command to activate a conda environment (with the name `myenv`) and install packages (`pandas, seaborn`) in it?
@@ -16,7 +16,7 @@
   conda install pandas seaborn
   ```
 
-- B:
+**My answer**- B:
 
   ```bash
   conda create myenv pandas seaborn
@@ -56,7 +56,7 @@
   git pull
   ```
 
-- D:
+**My answer**- D:
 
   ```bash
   git access
@@ -65,7 +65,7 @@
 ### Q4: What is Github?
 
 - A. A programming language
-- B. A cloud-based hosting service for git repositories
+**My answer**- B. A cloud-based hosting service for git repositories
 - C. A text editor
 - D. A version of Git
 
@@ -73,5 +73,5 @@
 
 - A. It pushes changes to a remote repository
 - B. It creates a new branch in the local repository
-- C. It clones a remote repository to your local machine
+**My answer**- C. It clones a remote repository to your local machine
 - D. It pulls changes from a remote repository
