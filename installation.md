@@ -31,9 +31,11 @@ You can access your WSL files using regular Windows applications, such as File E
 
 Read this [tutorial](https://learn.microsoft.com/en-us/windows/wsl/filesystems) to find out how it works.
 
+For a step by step installation instruction, please refer to [here](install_wsl.md).
+
 ## Visual Studio Code (VSCode)
 
-You will need a code editor to write Python or SQL code in the course. VSCode is a popular source code editor used by developers for writing, debugging and editing code across various programminng languages. 
+You will need a code editor to write Python or SQL code in the course. VSCode is a popular source code editor used by developers for writing, debugging and editing code across various programming languages. 
 
 Download and install VSCode [here](https://code.visualstudio.com/download).
 
@@ -43,6 +45,7 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 
 - Python
 - Jupyter
+- WSL (*Windows user only*)
 
 > Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
@@ -56,8 +59,21 @@ We will be using Git extensively in this course and you will need to install the
 
 ### Download and install Git CLI [here](https://git-scm.com/downloads).
 
-Windows WSL users, read and follow the steps in this tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git). *You may ignore the Azure setup.*
+For WSL users, git is already installed in Ubuntu. However, you need to configure git. You may read this tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) to understand more about Git in WSL. *You may ignore the Azure setup.*
 
+### Configure Git (Apply to Mac and Windows User)
+For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` to run the following configuration.
+
+- Launch `WSL` (Windows user) or `terminal` (Mac Users)
+
+Run the following command:
+```bash
+git config --global user.name "Your Name"
+```
+
+```bash
+git config --global user.email "your_github_email@domain.com"
+```
 
 
 ## Conda/Miniconda
@@ -66,7 +82,9 @@ Conda is a package and environment manager that we will be using throughout this
 
 ### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
-Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Winodws.
+Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Windows.
+
+Windows WSL users, you can also follow the step by step instruction [here](wsl_install_miniconda.md) 
 
 To verify this, your conda command prompt should show `(base) $`
 
