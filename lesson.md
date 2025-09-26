@@ -125,7 +125,7 @@ Freezing dependencies is the process of writing the dependencies of an environme
 Activate the environment first, then:
 
 ```bash
-conda env export > environment.yml
+conda env export --no-builds > environment.yml
 ```
 
 > Walk through the creation of an environment for this module
@@ -149,6 +149,7 @@ python <script_name.py>
 Git is a version control system which allows us to track changes to our codes.
 
 #### Create a git repository
+You need to create an empty repository in the github with a repository name. In the local PC, create a folder with the same name as the repository name. Open the folder in VSCode, and launch a terminal:
 
 ```bash
 git init
@@ -190,15 +191,24 @@ git status
 git log
 ```
 
+#### Push changes to remote repository
+
+```bash
+git push
+```
+
 ### Github
 
 Github is a cloud-based hosting service for git repositories. It allows us to store our git repositories in the cloud, and collaborate with other developers.
 
 #### Clone a git repository
+Go to your desire repository, and forked a copy of the copy under your Github id. Go to the repository destination in the terminal and run the following command:
 
 ```bash
-git clone <repo_url>
+git clone <your_repo_url>
 ```
+
+Then we can open the repo in VSCode.
 
 #### Pull changes from remote repository
 

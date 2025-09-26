@@ -31,7 +31,9 @@ You can access your WSL files using regular Windows applications, such as File E
 
 Read this [tutorial](https://learn.microsoft.com/en-us/windows/wsl/filesystems) to find out how it works.
 
-For a step by step installation instruction, please refer to [here](install_wsl.md).
+For a step by step installation instruction guide, please refer to [here](guides/install_wsl.md).
+
+For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
 
 ## Visual Studio Code (VSCode)
 
@@ -48,6 +50,13 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 - WSL (*Windows user only*)
 
 > Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
+
+### Windows Users Connecting to WSL in VSCode
+Windows WSL users, you can connect to WSL in VScode using the `Connect to` in the `Welcome Page` and select `WSL`. 
+
+Alternatively, you can also click on the lower left corner of the screen.
+
+
 
 ## Git vs GitHub
 
@@ -82,9 +91,11 @@ Conda is a package and environment manager that we will be using throughout this
 
 ### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
+For Mac users, you need to specify if you are using `Intel Mac` or `Apple Silicon Mac`. The packages are different.
+
 Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Windows.
 
-Windows WSL users, you can also follow the step by step instruction [here](wsl_install_miniconda.md) 
+Windows WSL users can also follow the step by step instruction [here](guides/wsl_install_miniconda.md).
 
 To verify this, your conda command prompt should show `(base) $`
 

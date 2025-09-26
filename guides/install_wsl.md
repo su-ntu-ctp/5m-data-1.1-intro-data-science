@@ -20,7 +20,7 @@ The resulting screen, should be similar to below:
 
 After installation, we need to **reboot the PC**.
 
-You can check the component installed using `Turn Windows Features on and off` app. You can find the app by searching `features` from the search bar.
+You can check the component installed using `Turn Windows Features on or off` app. You can find the app by searching `features` from the search bar.
 
 The component is checked
 
@@ -57,7 +57,7 @@ The first command is to get the update information from Ubuntu. See the quote fr
 
 > The `sudo apt-get update` command, run in a Linux terminal, refreshes your system's local package index by downloading the latest package information from software repositories. This allows your system to recognize new versions of software or new packages that have been added to the repositories, but it does not actually install or upgrade any software;
 
-Use the following command to get the lastest package information:
+Use the following command to get the latest package information:
 ```bash
 sudo apt-get update
 ```
@@ -77,7 +77,7 @@ It should be something similar below:
 
 ## Troubleshoot WSL 
 
-- If there is problem WSL component installation, you can checked and uncheck the component `Virtual Machine Platform`. 
+- If there is problem with WSL component installation, you can checked and uncheck the component `Virtual Machine Platform`. 
 
 ![assets/wsl/wsl_component.png](assets/wsl/wsl_component.png)
 
