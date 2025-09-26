@@ -41,6 +41,9 @@ You will need a code editor to write Python or SQL code in the course. VSCode is
 
 Download and install VSCode [here](https://code.visualstudio.com/download).
 
+
+[Video: Install VSCode for Mac and Windows User](https://drive.google.com/file/d/1E89CVnVWcZyp8Vu5Ia0DWPiXB_AGNOC9/view?usp=drive_link)
+
 ### Install the following vscode extensions
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:
@@ -68,6 +71,7 @@ Select `WSL` at the top panel. Once WSL is launched, you should see your lower r
 
 ![alt text](assets/installation/LR_corner_conn_wsl.png)
 
+ [Video: Connect WSL with VSCode](https://drive.google.com/file/d/18yfOCL2hKILwChSCbNrBiFkJr-cxvHd4/view?usp=drive_link)
 
 
 ## Git vs GitHub
@@ -96,6 +100,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your_github_email@domain.com"
 ```
 
+[Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/17gnRNH2N7bisCOoAObvbzhLPQdxrYE93/view?usp=drive_link)
 
 ## Conda/Miniconda
 
@@ -110,6 +115,8 @@ Windows WSL users, please follow instructions for **Linux/Unix**. You must insta
 Windows WSL users can also follow the step by step instruction [here](guides/wsl_install_miniconda.md).
 
 To verify this, your conda command prompt should show `(base) $`
+
+[Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
 
 ## DBeaver
 
