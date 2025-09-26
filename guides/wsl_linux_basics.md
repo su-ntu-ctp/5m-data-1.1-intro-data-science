@@ -17,6 +17,10 @@ ls
 ls -al
 ```
 
+You can find the directory at 
+
+![alt text](../assets/wsl_basics/explorer.png)
+
 - Navigate to a root directory
 ```bash
 cd /
@@ -30,7 +34,7 @@ cd home/*your_linux_id*
 cd home/dsai
 ```
 
-- Alternatively, we can also use the following command:
+- Alternatively, we can also use the following command to cd to home folder represent by (`~`):
 ```bash
 cd ~
 ```

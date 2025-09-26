@@ -58,6 +58,12 @@ To help you get started with the CLI, here are some excellent online resources a
 
 We can use conda to install different versions of Python. Conda also allows us to create and manage virtual environments for different projects. A `conda environment` is a self-contained virtual environment that contains its own Python installation and packages. This allows us to have different versions of Python and packages for different projects, without them conflicting with each other.
 
+#### Get a list of conda environment in the system
+
+```bash
+conda env list
+```
+
 #### Create a conda environment
 
 ```bash

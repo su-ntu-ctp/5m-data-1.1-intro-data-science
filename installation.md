@@ -54,7 +54,19 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 ### Windows Users Connecting to WSL in VSCode
 Windows WSL users, you can connect to WSL in VScode using the `Connect to` in the `Welcome Page` and select `WSL`. 
 
+![alt text](assets/installation/connect_to.png)
+
+and select `WSL`
+
+![alt text](assets/installation/top_panel.png)
+
 Alternatively, you can also click on the lower left corner of the screen.
+
+![alt text](assets/installation/LR_corner_no_conn.png)
+
+Select `WSL` at the top panel. Once WSL is launched, you should see your lower right corner as shown:
+
+![alt text](assets/installation/LR_corner_conn_wsl.png)
 
 
 
