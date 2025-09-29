@@ -45,6 +45,4 @@ cd ..
 ```
 
 ### Video 
-- [WSL Linux Basics v1](https://drive.google.com/file/d/1HO3l7UPgpKN_gWPVwi1t8xLxMVUvjkHN/view?usp=drive_link)
-- [WSL Linux Basics v2](https://drive.google.com/file/d/18NV9Jm_QpED7bCa3RcveNKP66E2FKePO/view?usp=drive_link)
-- [WSL Linux Basics v3](https://drive.google.com/file/d/1_mPUT7KmauhIilT_T6oQOaZWC4pnFawk/view?usp=drive_link)
+- [WSL Linux Basics](https://drive.google.com/file/d/1_mPUT7KmauhIilT_T6oQOaZWC4pnFawk/view?usp=drive_link)

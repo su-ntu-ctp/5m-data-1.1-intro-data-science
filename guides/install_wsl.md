@@ -45,12 +45,8 @@ You should have similar setup screen as shown below:
 > **Note: You will be asked to setup your Linux account with a username and password. If you have successfully setup the Linux account and password, then the installation is considered as successful.**
 
 ### Video Run-Through
-- [Install WSL Component v1](https://drive.google.com/file/d/1J_F6NsP9RS_R-arm46_9XraIiaaLbDx1/view?usp=drive_link)
-- [Install WSL Component v2](https://drive.google.com/file/d/1Z49xLTORh452UYYe5AGz9L-cERlkvrq1/view?usp=drive_link)
-- [Install WSL Component v3](https://drive.google.com/file/d/14isUKTqfVummt2pK7h1LCro6zAN0kmIR/view?usp=drive_link)
-- [Install Ubuntu in WSL v1](https://drive.google.com/file/d/1x5g8fqUdOpkkiCVQjFIsOwwZ0dtG-ceL/view?usp=drive_link)
-- [Install Ubuntu in WSL v2](https://drive.google.com/file/d/1tdDbw8Xo8kna9RiiWpll5NX2k6d0q0hQ/view?usp=drive_link)
-- [Install Ubuntu in WSL v3](https://drive.google.com/file/d/1o6zJweg-J3WE-XBX6RNqrc_DXxqqweHs/view?usp=drive_link)
+- [Install WSL Component](https://drive.google.com/file/d/14isUKTqfVummt2pK7h1LCro6zAN0kmIR/view?usp=drive_link)
+- [Install Ubuntu in WSL](https://drive.google.com/file/d/1o6zJweg-J3WE-XBX6RNqrc_DXxqqweHs/view?usp=drive_link)
 
 
 ## Update Ubuntu
@@ -83,9 +79,7 @@ It should be something similar below:
 ![assets/wsl/aptget_upgrade.png](../assets/wsl/aptget_upgrade.png)
 
 ### Video Run-Through
-- [Updating Ubuntu System v1](https://drive.google.com/file/d/1VJiFZswo05D43ikysVMJGR5OK24Jzt1L/view?usp=drive_link)
-- [Updating Ubuntu System v2](https://drive.google.com/file/d/1qdGGGXz0OlPROR4r0Lnnn5OrGoiwp1nL/view?usp=drive_link)
-- [Updating Ubuntu System v3](https://drive.google.com/file/d/13R_7UgjlW0WU1w82mELTo7cBGMgJqHOM/view?usp=drive_link)
+- [Updating Ubuntu System](https://drive.google.com/file/d/13R_7UgjlW0WU1w82mELTo7cBGMgJqHOM/view?usp=drive_link)
 
 ## Troubleshoot WSL 
 
@@ -106,9 +100,7 @@ It should be something similar below:
 ![assets/wsl/wsl_start_error.png](../assets/wsl/wsl_start_error.png)
 
 ### Video Run-Through
-- [Troubleshooting WSL v1](https://drive.google.com/file/d/1b0mni46BqZm-_LJ7OBB9pB0pgPcV9ElN/view?usp=drive_link)
-- [Troubleshooting WSL v2](https://drive.google.com/file/d/1TtA_LWObjLV63qWKY86qSlfs-KfVgSZZ/view?usp=drive_link)
-- [Troubleshooting WSL v3](https://drive.google.com/file/d/1oDv_hvzqUwNpmI8Tv2iYQI-fs20TjDQ0/view?usp=drive_link)
+- [Troubleshooting WSL](https://drive.google.com/file/d/1TtA_LWObjLV63qWKY86qSlfs-KfVgSZZ/view?usp=drive_link)
 
 
 
