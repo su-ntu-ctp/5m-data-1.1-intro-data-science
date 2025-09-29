@@ -76,9 +76,7 @@ Select `WSL` at the top panel. Once WSL is launched, you should see your lower r
 
 > Note: Please note that you may need to reinstall the Python and Jupyter extensions into the WSL environment. 
 
- [Video: Connect WSL with VSCode](https://drive.google.com/file/d/18yfOCL2hKILwChSCbNrBiFkJr-cxvHd4/view?usp=drive_link)
-
-[Video: Connect WSL with VSCode v2](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
+[Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
 
 ## Git vs GitHub
 
@@ -106,9 +104,9 @@ git config --global user.name "Your Name"
 git config --global user.email "your_github_email@domain.com"
 ```
 
-[Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/17gnRNH2N7bisCOoAObvbzhLPQdxrYE93/view?usp=drive_link)
+[Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
 
-[Video: Configuring Git and Using Git in VSCode V2](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
+> The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.
 
 ## Conda/Miniconda
 
