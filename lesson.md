@@ -58,6 +58,12 @@ To help you get started with the CLI, here are some excellent online resources a
 
 We can use conda to install different versions of Python. Conda also allows us to create and manage virtual environments for different projects. A `conda environment` is a self-contained virtual environment that contains its own Python installation and packages. This allows us to have different versions of Python and packages for different projects, without them conflicting with each other.
 
+#### Get a list of conda environment in the system
+
+```bash
+conda env list
+```
+
 #### Create a conda environment
 
 ```bash
@@ -125,7 +131,7 @@ Freezing dependencies is the process of writing the dependencies of an environme
 Activate the environment first, then:
 
 ```bash
-conda env export > environment.yml
+conda env export --no-builds > environment.yml
 ```
 
 > Walk through the creation of an environment for this module
@@ -190,6 +196,12 @@ git status
 git log
 ```
 
+#### Push changes to remote repository
+
+```bash
+git push
+```
+
 ### Github
 
 Github is a cloud-based hosting service for git repositories. It allows us to store our git repositories in the cloud, and collaborate with other developers.
@@ -197,8 +209,9 @@ Github is a cloud-based hosting service for git repositories. It allows us to st
 #### Clone a git repository
 
 ```bash
-git clone <repo_url>
+git clone <your_repo_url>
 ```
+
 
 #### Pull changes from remote repository
 
@@ -213,3 +226,20 @@ git push
 ```
 
 > Walk through the forking of this repository and cloning of the forked repository to the local machine. Then attempt the 1st question of the assignment, and push the changes to the forked repository.
+
+### Cloning a Lesson 
+- For every new lesson, you need to fork + clone the lesson repository (repo).
+- For a new lesson, fork the repo (one time only) at the Github website. Go to the NTU repository, e.g. https://github.com/su-ntu-ctp/5m-data-1.1-intro-data-science.
+- Click on the `Fork` button at the top of the repo page.
+- Create a new fork by confirming the name (for example Dave) of your new repo, e.g. dave/5m-data-1.1-intro-data-science.
+- Next we need to clone the repo to your local PC
+- Go to your local Terminal window (WSL users: check for $ prompt).
+- Type `pwd` to check your working directory. Otherwise, use cd to change to the correct directory.
+- Type `git clone https://github.com/dave/5m-data-1.1-intro-data-science`.
+- Change to your cloned directory with the cd, e.g.  `cd 5m-data-1.1-intro-data-science`.
+
+### Update changes from NTU repo
+- Go to the your forked repo, e.g. https://github.com/dave/5m-data-1.1-intro-data-science.
+- Click on `Sync fork` button on the repo home page to update your repo with the new content from the NTU repo. If there are no changes, you will see a message "The branch is not behind the upstream"---nothing to update.
+- Go to your local Terminal window and change to your cloned directory e.g.  `cd 5m-data-1.1-intro-data-science`.
+- Type `git pull` to download the new changes from your personal forked repository.
