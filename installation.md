@@ -43,6 +43,8 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 
 [Video: Install VSCode for Mac and Windows User](https://drive.google.com/file/d/1E89CVnVWcZyp8Vu5Ia0DWPiXB_AGNOC9/view?usp=drive_link)
+[Video: Install VSCode for Mac and Windows User V2](https://drive.google.com/file/d/1aLGUuHOfuS9drF6ZicrEQcR0Wr9WHK9M/view?usp=drive_link)
+
 
 ### Install the following vscode extensions
 
@@ -71,8 +73,11 @@ Select `WSL` at the top panel. Once WSL is launched, you should see your lower r
 
 ![alt text](assets/installation/LR_corner_conn_wsl.png)
 
+> Note: Please note that you may need to reinstall the Python and Jupyter extensions into the WSL environment. 
+
  [Video: Connect WSL with VSCode](https://drive.google.com/file/d/18yfOCL2hKILwChSCbNrBiFkJr-cxvHd4/view?usp=drive_link)
 
+[Video: Connect WSL with VSCode v2](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
 
 ## Git vs GitHub
 
@@ -102,13 +107,19 @@ git config --global user.email "your_github_email@domain.com"
 
 [Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/17gnRNH2N7bisCOoAObvbzhLPQdxrYE93/view?usp=drive_link)
 
+[Video: Configuring Git and Using Git in VSCode V2](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
+
 ## Conda/Miniconda
 
 Conda is a package and environment manager that we will be using throughout this program, to manage our Python packages and environments. Miniconda is a lightweight version of the Anaconda distribution, designed for users who prefer a minimal installation. It includes only the essentials: Python, conda (the package and environment manager), and their dependencies. Unlike Anaconda, which comes preloaded with hundreds of scientific packages, Miniconda allows you to install only the packages you need, making it more flexible and less resource-intensive.
 
 ### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
-For Mac users, you need to specify if you are using `Intel Mac` or `Apple Silicon Mac`. The packages are different.
+Please note that Anaconda has stopped building packages for Intel Mac. Their official message is as follows:
+
+> As of August 15, 2025, Anaconda has stopped building packages for Intel Mac computers (osx-64). Existing Intel (MacOSX-x86_64) installers are still available at https://repo.anaconda.com/miniconda/ and the last Miniconda installer release for Intel Mac computers will be 25.7.x. For more information, see [our blog](https://www.anaconda.com/blog/intel-mac-package-support-deprecation) on the end of Intel mac support.
+
+For Intel Mac users, you can still download miniconda at https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg. However, please make plan to migrate to Mac with Apple chips.
 
 Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Windows.
 

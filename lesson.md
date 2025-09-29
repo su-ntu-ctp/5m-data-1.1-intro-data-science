@@ -155,7 +155,6 @@ python <script_name.py>
 Git is a version control system which allows us to track changes to our codes.
 
 #### Create a git repository
-You need to create an empty repository in the github with a repository name. In the local PC, create a folder with the same name as the repository name. Open the folder in VSCode, and launch a terminal:
 
 ```bash
 git init
@@ -208,13 +207,11 @@ git push
 Github is a cloud-based hosting service for git repositories. It allows us to store our git repositories in the cloud, and collaborate with other developers.
 
 #### Clone a git repository
-Go to your desire repository, and forked a copy of the copy under your Github id. Go to the repository destination in the terminal and run the following command:
 
 ```bash
 git clone <your_repo_url>
 ```
 
-Then we can open the repo in VSCode.
 
 #### Pull changes from remote repository
 
@@ -229,3 +226,20 @@ git push
 ```
 
 > Walk through the forking of this repository and cloning of the forked repository to the local machine. Then attempt the 1st question of the assignment, and push the changes to the forked repository.
+
+### Cloning a Lesson 
+- For every new lesson, you need to fork + clone the lesson repository (repo).
+- For a new lesson, fork the repo (one time only) at the Github website. Go to the NTU repository, e.g. https://github.com/su-ntu-ctp/5m-data-1.1-intro-data-science.
+- Click on the `Fork` button at the top of the repo page.
+- Create a new fork by confirming the name (for example Dave) of your new repo, e.g. dave/5m-data-1.1-intro-data-science.
+- Next we need to clone the repo to your local PC
+- Go to your local Terminal window (WSL users: check for $ prompt).
+- Type `pwd` to check your working directory. Otherwise, use cd to change to the correct directory.
+- Type `git clone https://github.com/dave/5m-data-1.1-intro-data-science`.
+- Change to your cloned directory with the cd, e.g.  `cd 5m-data-1.1-intro-data-science`.
+
+### Update changes from NTU repo
+- Go to the your forked repo, e.g. https://github.com/dave/5m-data-1.1-intro-data-science.
+- Click on `Sync fork` button on the repo home page to update your repo with the new content from the NTU repo. If there are no changes, you will see a message "The branch is not behind the upstream"---nothing to update.
+- Go to your local Terminal window and change to your cloned directory e.g.  `cd 5m-data-1.1-intro-data-science`.
+- Type `git pull` to download the new changes from your personal forked repository.
