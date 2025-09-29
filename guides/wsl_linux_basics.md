@@ -1,4 +1,4 @@
-# WSL
+# WSL - Basic Usage
 
 ## Basic Linux Command
 

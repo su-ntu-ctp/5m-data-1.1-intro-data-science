@@ -43,6 +43,7 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 
 [Video: Install VSCode for Mac and Windows User](https://drive.google.com/file/d/1E89CVnVWcZyp8Vu5Ia0DWPiXB_AGNOC9/view?usp=drive_link)
+
 [Video: Install VSCode for Mac and Windows User V2](https://drive.google.com/file/d/1aLGUuHOfuS9drF6ZicrEQcR0Wr9WHK9M/view?usp=drive_link)
 
 
