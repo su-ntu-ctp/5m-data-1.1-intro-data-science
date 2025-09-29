@@ -99,6 +99,17 @@ It should be something similar below:
 
 ![assets/wsl/wsl_start_error.png](../assets/wsl/wsl_start_error.png)
 
+- For problems with installation of Ubuntu, you may try the following command:
+```bash
+wsl --install -d Ubuntu
+```
+
+or
+
+```bash
+wsl --install -d Ubuntu --web-download
+```
+
 ### Video Run-Through
 - [Troubleshooting WSL](https://drive.google.com/file/d/1TtA_LWObjLV63qWKY86qSlfs-KfVgSZZ/view?usp=drive_link)
 
