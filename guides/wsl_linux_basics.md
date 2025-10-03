@@ -46,3 +46,5 @@ cd ..
 
 ### Video 
 - [WSL Linux Basics](https://drive.google.com/file/d/1_mPUT7KmauhIilT_T6oQOaZWC4pnFawk/view?usp=drive_link)
+
+

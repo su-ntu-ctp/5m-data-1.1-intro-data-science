@@ -13,7 +13,7 @@
   - https://education.github.com/git-cheat-sheet-education.pdf
 
 
-**VSCode**
+## **VSCode**
 - Getting Started with VSCode 
   - https://code.visualstudio.com/docs/getstarted/getting-started
 - Using Extensions in VSCode  
@@ -26,7 +26,7 @@
   - https://youtu.be/B-s71n0dHUk  
 
 
-**Git and Github**
+## **Git and Github**
 - Official textbook from Git
   - https://git-scm.com/book/en/v2
 - Git Guides
@@ -49,7 +49,7 @@
   - https://youtu.be/i_23KUAEtUM
 
 
-**Conda/Miniconda**
+## **Conda or Miniconda**
 - Environments - Anaconda
   - https://www.anaconda.com/docs/tools/working-with-conda/environments
 - Managing Conda
@@ -65,11 +65,17 @@
 - Conda command Not found
   - https://medium.com/@sawepeter6/conda-command-not-found-ac28bea24291  
 
-**WSL on Windows**
+## **WSL on Windows**
 - WSL2 Tutorial
   - https://www.sitepoint.com/wsl2/
 - Install WSL
   - https://learn.microsoft.com/en-us/windows/wsl/install
+- Windows Subsystem for Linux Documentation 
+  - https://learn.microsoft.com/en-us/windows/wsl/
+- Set up a WSL development environment
+  - https://learn.microsoft.com/en-us/windows/wsl/setup/environment
+- Getting started with Linux and Bash
+  - https://learn.microsoft.com/en-us/windows/wsl/tutorials/linux
 - Get started with Git on WSL
   - https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git
 - Developing in WSL

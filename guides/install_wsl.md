@@ -16,7 +16,7 @@ wsl --install
 The resulting screen, should be similar to below:
 ![assets/wsl/wsl1.png](../assets/wsl/wsl1.png)
 
-> **Please note that the screen may varies according to different version of Windows. For Window 10 users, you may see 2 components installed instead of 1.**
+> **Please note that the screen may varies according to different version of Windows. For older versions, you may see two components installed instead of one.**
 
 After installation, we need to **reboot the PC**.
 
@@ -28,7 +28,7 @@ The component is checked
 
 Note:
 > **For newer PC, we will be using WSL2 which only need one system component `Virtual Machine Platform`.**
->**For Windows 10 user, we might need additional system component `Windows Subsystem for Linux`. Therefor you may see 2 component checked.** 
+>**For older Windows user, we might need additional system component `Windows Subsystem for Linux`. Therefor you may see 2 component checked.** 
 
 ![alt text](../assets/wsl/wsl_2_component.PNG)
 
@@ -91,6 +91,8 @@ It should be something similar below:
 
 ![assets/wsl/wsl_2_component.PNG](../assets/wsl/wsl_2_component.PNG)
 
+>You may also try to uncheck the components first, do a system reboot, then checked them again and do a final system reboot.
+
 - Alternatively, we can also user system component repair by going to `Settings` -> `Apps` -> `Installed Apps`, scroll down to related settings and select  `System Components`. Next, look for `Windows Subsystem for Linux` and click `Advanced options`. You can choose to `repair` or `reset` WSL.
 
 ![assets/wsl/component_repair.png](../assets/wsl/component_repair.png)
@@ -101,12 +103,14 @@ It should be something similar below:
 
 - For problems with installation of Ubuntu, you may try the following command:
 ```bash
+# Try this command if you get errors using wsl --install
 wsl --install -d Ubuntu
 ```
 
 or
 
 ```bash
+# Try this command if you have problem downloading Ubuntu
 wsl --install -d Ubuntu --web-download
 ```
 

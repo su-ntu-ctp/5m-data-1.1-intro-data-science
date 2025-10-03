@@ -35,6 +35,8 @@ For a step by step installation instruction guide, please refer to [here](guides
 
 For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
 
+Please refer to [Reference - WSL on Windows](reference.md#wsl-on-windows) for more learning resource on WSL.
+
 ## Visual Studio Code (VSCode)
 
 You will need a code editor to write Python or SQL code in the course. VSCode is a popular source code editor used by developers for writing, debugging and editing code across various programming languages. 
@@ -76,6 +78,20 @@ Select `WSL` at the top panel. Once WSL is launched, you should see your lower r
 
 [Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
 
+#### Windows User: Alternative Way to Connect VSCode to WSL
+There is an alternative way to connect WSL to VSCode using command. Using the command method, the entire home folder is opened in VSCode. You do not need to open individual git folder. The advantage is that you do not need to open and close each repository. However, the downside is that it does not provide isolation for each repository.
+
+Here is the process to connect WSL with VSCode using command:
+
+1. Launch `WSL`.
+2. At `WSL`, use the following command and VSCode will be launched.
+
+```bash
+code .
+```
+
+Please refer to [Reference - VSCode](reference.md#vscode) for more learning resource on VSCode.
+
 ## Git vs GitHub
 
 Git and GitHub are two essential tools in software engineering. Git is a version control system that helps developers track changes in their code locally. GitHub is a web-based platform where developers can store and share their Git projects, facilitating collaboration and code management. Together, they enable a workflow where developers work on code locally with Git and then share it on GitHub for others to see, review, and contribute. This combination supports efficient collaboration, version control, and project management, making it indispensable for modern software engineering teams.
@@ -106,6 +122,8 @@ git config --global user.email "your_github_email@domain.com"
 
 > The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.
 
+Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
+
 ## Conda/Miniconda
 
 Conda is a package and environment manager that we will be using throughout this program, to manage our Python packages and environments. Miniconda is a lightweight version of the Anaconda distribution, designed for users who prefer a minimal installation. It includes only the essentials: Python, conda (the package and environment manager), and their dependencies. Unlike Anaconda, which comes preloaded with hundreds of scientific packages, Miniconda allows you to install only the packages you need, making it more flexible and less resource-intensive.
@@ -125,6 +143,8 @@ Windows WSL users can also follow the step by step instruction [here](guides/wsl
 To verify this, your conda command prompt should show `(base) $`
 
 [Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
+
+Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda) for more learning resource on Conda/Miniconda.
 
 ## DBeaver
 
