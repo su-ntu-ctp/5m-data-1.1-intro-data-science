@@ -118,11 +118,18 @@ git config --global user.name "Your Name"
 git config --global user.email "your_github_email@domain.com"
 ```
 
+To confirm the configuration above 
+```bash
+git config --global --list
+```
+
 [Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
 
 > The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.
 
 Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
+
+To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone your lesson to your PC.
 
 ## Conda/Miniconda
 
@@ -153,4 +160,31 @@ We will be using DBeaver SQL client throughout this course to connect to databas
 Download and install DBeaver Community [here](https://dbeaver.io/download/).
 
 Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
+
+## FAQ
+1. What Operating System (Windows/Mac/Linux) is recommended for this course?
+
+- **Ans:** We welcome diversity of Operating System as long as it is the supported version. For Windows users, extra software such as `Windows Subsystem for Linux` is required.
+
+2. What Python version is required?
+
+- **Ans:** You do not need to concern about the version of Python during installation. We use `conda` to managed different versions of python. 
+
+3. I have Anaconda installed do I need to install Miniconda?
+
+- **Ans:** No need. Once Anaconda is installed, you can access the same conda environment from VSCode.
+
+4. Can I use Anaconda instead of VSCode?
+
+- **Ans:** For Windows users, VSCode is preferred since you need to use WSL. VSCode allows you to integrated the IDE with WSL. For Mac users, technically you can use Anaconda instead of VSCode. However, please note that our lesson instructions are written based on VSCode. VScode is more light weight and faster than Anaconda. If you are already familiar with Anaconda, we encourage you to explore VSCode.
+
+5. I have installed Github Desktop for Mac/Windows, do I still need to install Git?
+
+- **Ans:** No need. Once the Github software is installed, the git software already there.
+
+6. Can I se Github Desktop for Mac/Windows instead?
+
+- **Ans:** We encourage you stick with VSCode as VSCode can be linked to Github. Please note that when you clone a repository into VSCode, it will not be registered or noticeable by Github Desktop Mac/Windows.
+
+
 

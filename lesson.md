@@ -6,7 +6,7 @@
 
 ### Prerequisite knowledge for this program
 
-Familarity with Python programming language, at an intermediate level. At least an understanding of and ability to code the following concepts:
+Familiarity with Python programming language, at an intermediate level. At least an understanding of and ability to code the following concepts:
 
 - Variables
 - Data types
@@ -225,6 +225,12 @@ git pull
 git push
 ```
 
+#### Checking the source of your remote repository
+
+```bash
+git remote -v
+```
+
 > Walk through the forking of this repository and cloning of the forked repository to the local machine. Then attempt the 1st question of the assignment, and push the changes to the forked repository.
 
 ### Cloning a Lesson 
@@ -237,6 +243,10 @@ git push
 - Type `pwd` to check your working directory. Otherwise, use cd to change to the correct directory.
 - Type `git clone https://github.com/dave/5m-data-1.1-intro-data-science`.
 - Change to your cloned directory with the cd, e.g.  `cd 5m-data-1.1-intro-data-science`.
+
+Please refer to the following video:
+
+https://drive.google.com/file/d/1V5cAbaTgYoOqZreht038gN0Q0CEVYW9e/view?usp=drive_link
 
 ### Update changes from NTU repo
 - Go to the your forked repo, e.g. https://github.com/dave/5m-data-1.1-intro-data-science.
