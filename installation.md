@@ -23,17 +23,18 @@ Windows users should install WSL which allows you to run Windows and Linux at th
 Most software engineering and development tools are initially developed for Linux and then adapted for Windows. As a result, they often perform better on Linux. Although Windows versions of popular tools are widely available, we strongly recommend using the Linux version whenever possible for optimal performance.
 You must be running Windows 11 or 10 version 2004 and higher. 
 
-Follow the instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install) to install Ubuntu on WSL.
+For a step by step installation instruction guide, please refer to [here](guides/install_wsl.md).
 
+For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
+
+If you encounter issues with the guide above, you can refer to the official installation instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install) to install Ubuntu on WSL.
+
+### Additional Learning Resource
 You can access your WSL files using regular Windows applications, such as File Explorer. While you in your Linux directory, type: 
 
 `explorer.exe .`
 
 Read this [tutorial](https://learn.microsoft.com/en-us/windows/wsl/filesystems) to find out how it works.
-
-For a step by step installation instruction guide, please refer to [here](guides/install_wsl.md).
-
-For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
 
 Please refer to [Reference - WSL on Windows](reference.md#wsl-on-windows) for more learning resource on WSL.
 
@@ -44,52 +45,24 @@ You will need a code editor to write Python or SQL code in the course. VSCode is
 Download and install VSCode [here](https://code.visualstudio.com/download).
 
 
-[Video: Install VSCode for Mac and Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
+[Video: Install VSCode for Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
 
+[Video: Install VSCode for Mac User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
 
-### Install the following vscode extensions
+> Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
+
+### Install the following vscode extensions (Mac Users)
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:
 
 - Python
 - Jupyter
-- WSL (*Windows user only*)
 
-> Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
-### Windows Users Connecting to WSL in VSCode
-Windows WSL users, you can connect to WSL in VScode using the `Connect to` in the `Welcome Page` and select `WSL`. 
+### Windows WSL Users Configuring VSCode (Windows WSL Users)
+For Windows WSL users, we need to connect to WSL first before installation the extensions. Please refer to the guide [here](guides/wsl_vscode_config.md). 
 
-![alt text](assets/installation/connect_to.png)
-
-and select `WSL`
-
-![alt text](assets/installation/top_panel.png)
-
-Alternatively, you can also click on the lower left corner of the screen.
-
-![alt text](assets/installation/LR_corner_no_conn.png)
-
-Select `WSL` at the top panel. Once WSL is launched, you should see your lower right corner as shown:
-
-![alt text](assets/installation/LR_corner_conn_wsl.png)
-
-> Note: Please note that you may need to reinstall the Python and Jupyter extensions into the WSL environment. 
-
-[Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
-
-#### Windows User: Alternative Way to Connect VSCode to WSL
-There is an alternative way to connect WSL to VSCode using command. Using the command method, the entire home folder is opened in VSCode. You do not need to open individual git folder. The advantage is that you do not need to open and close each repository. However, the downside is that it does not provide isolation for each repository.
-
-Here is the process to connect WSL with VSCode using command:
-
-1. Launch `WSL`.
-2. At `WSL`, use the following command and VSCode will be launched.
-
-```bash
-code .
-```
-
+### Additional Resources
 Please refer to [Reference - VSCode](reference.md#vscode) for more learning resource on VSCode.
 
 ## Git vs GitHub
@@ -102,10 +75,10 @@ We will be using Git extensively in this course and you will need to install the
 
 ### Download and install Git CLI [here](https://git-scm.com/downloads).
 
-For WSL users, git is already installed in Ubuntu. However, you need to configure git. You may read this tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) to understand more about Git in WSL. *You may ignore the Azure setup.*
+For WSL users, git is already installed in Ubuntu. However, you need to configure git. Please follow the config guide below.
 
 ### Configure Git (Apply to Mac and Windows User)
-For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` to run the following configuration.
+For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` or `Ubuntu` to run the following configuration.
 
 - Launch `WSL` (Windows user) or `terminal` (Mac Users)
 
@@ -123,13 +96,20 @@ To confirm the configuration above
 git config --global --list
 ```
 
+#### Additional config (Mac Users Only)
+Mac users may run the following command to avoid possible error in the future:
+```bash
+git config --global http.postBuffer 524288000
+```
+
 [Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
 
 > The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.
 
-Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
+### Additional Learning Resource
+Windows WSL users may read this official tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) to understand more about Git in WSL. *You may ignore the Azure setup.*
 
-To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone your lesson to your PC.
+Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
 
 ## Conda/Miniconda
 
@@ -151,15 +131,32 @@ To verify this, your conda command prompt should show `(base) $`
 
 [Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
 
+### Additional Learning Resource
 Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda) for more learning resource on Conda/Miniconda.
 
-## DBeaver
+## DuckDB Browser: DBeaver
 
-We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community 
+We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community. 
 
 Download and install DBeaver Community [here](https://dbeaver.io/download/).
 
-Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
+> Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
+
+> However, there is a limitation in using DBeaver with WSL. You **CANNOT** use CAPS in your file path in **WSL**. DBeaver is not able to convert caps in WSL.
+
+Alternatively, you can use another Duckdb browser called DbGate, you can download and install DbGate Community version [here](https://www.dbgate.io/download-community/) 
+
+## Verification of Installation (Mac and Windows Users)
+- To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone this lesson to your PC. If you manage to clone your repository into your PC, we can confirm the git configuration is good.
+
+- Please refer to the following exercise [here](guides/run_conda_python.md) to see if you can create a conda environment and run a python file to create a test database. Please proceed to next step if you manage to run the command without errors.
+
+- To confirm if you can see the data, open `DBeaver` or `DbGate` and connect to the test database `test_duck.db`. 
+    - For DBeaver user please following the guide [here](guides/dbeaver_connect.md)
+    - For DbGate user please follow the guide [here](guides/dbgate_connect.md)
+
+Please make sure you can see 3 records.
+
 
 ## FAQ
 1. What Operating System (Windows/Mac/Linux) is recommended for this course?
