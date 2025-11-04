@@ -102,6 +102,11 @@ Mac users may run the following command to avoid possible error in the future:
 git config --global http.postBuffer 524288000
 ```
 
+### Connecting VScode with Github
+To connect Github with VSCode, you just need to click `Clone Git Repository` at the `Welcome` page. To access the welcome page, on the menu bar click `Help` > `Welcome`
+
+Please checkout the video belong which applies for both Mac and Windows user.
+
 [Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
 
 > The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.

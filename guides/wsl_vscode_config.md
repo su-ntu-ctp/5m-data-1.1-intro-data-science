@@ -4,28 +4,28 @@ For Windows WSL users, we need to connect to WSL first before installation the e
 ## Windows WSL Connecting to VSCode
 We can connect to WSL in VScode using the `Connect to` in the `Welcome Page` and select `WSL`. 
 
-![alt text](assets/installation/connect_to.png)
+![alt text](../assets/installation/connect_to.png)
 
 and select `WSL`
 
-![alt text](assets/installation/top_panel.png)
+![alt text](../assets/installation/top_panel.png)
 
 Alternatively, you can also click on the lower left corner of the screen.
 
-![alt text](assets/installation/LR_corner_no_conn.png)
+![alt text](../assets/installation/LR_corner_no_conn.png)
 
 Select `WSL` at the top panel. The WSL extension will be installed automatically for the first time. After that please wait for WSL to launched in VSCode.
 
 Once WSL is launched, you should see your lower right corner as shown:
 
-![alt text](assets/installation/LR_corner_conn_wsl.png)
+![alt text](../assets/installation/LR_corner_conn_wsl.png)
 
 ## Installing Python Extension in WSL 
 We need to install extension in WSL/Ubuntu.
 
 First make sure that we are connected to WSL as shown 
 
-![alt text](assets/installation/LR_corner_conn_wsl.png)
+![alt text](../assets/installation/LR_corner_conn_wsl.png)
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:
 
