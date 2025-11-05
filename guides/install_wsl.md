@@ -83,7 +83,7 @@ It should be something similar below:
 
 ## Troubleshoot WSL 
 
-- If there is problem with WSL component installation, you can checked and uncheck the component `Virtual Machine Platform`. 
+- If there is problem with WSL component installation, you can unchecked and check the component `Virtual Machine Platform`. 
 
 ![assets/wsl/wsl_component.png](../assets/wsl/wsl_component.png)
 
@@ -93,6 +93,10 @@ It should be something similar below:
 
 >You may also try to uncheck the components first, do a system reboot, then checked them again and do a final system reboot.
 
+- Some learner also encounter issues with the BIOS where you need to enabled them. In that case you need to check how to enable BIOS for your particular laptop.
+
+- Please also visit [this official troubleshooting page](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting) to check for commonly encountered issues. 
+
 - Alternatively, we can also user system component repair by going to `Settings` -> `Apps` -> `Installed Apps`, scroll down to related settings and select  `System Components`. Next, look for `Windows Subsystem for Linux` and click `Advanced options`. You can choose to `repair` or `reset` WSL.
 
 ![assets/wsl/component_repair.png](../assets/wsl/component_repair.png)
@@ -100,6 +104,7 @@ It should be something similar below:
 - Sometimes, the system will prompt for auto-repair during installation as shown below:
 
 ![assets/wsl/wsl_start_error.png](../assets/wsl/wsl_start_error.png)
+ 
 
 - For problems with installation of Ubuntu, you may try the following command:
 ```bash
