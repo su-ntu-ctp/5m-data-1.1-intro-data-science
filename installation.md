@@ -47,7 +47,7 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 [Video: Install VSCode for Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
 
-[Video: Install VSCode for Mac User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
+[Video: Install VSCode for Mac User](hhttps://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
 > Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
@@ -76,6 +76,8 @@ We will be using Git extensively in this course and you will need to install the
 ### Download and install Git CLI [here](https://git-scm.com/downloads).
 
 For WSL users, git is already installed in Ubuntu. However, you need to configure git. Please follow the config guide below.
+
+[Video: Install Git for Mac User](https://drive.google.com/file/d/1_NdWjc4pqYkuaFqRgYCGI62FoDufK4Bs/view?usp=drive_link)
 
 ### Configure Git (Apply to Mac and Windows User)
 For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` or `Ubuntu` to run the following configuration.
