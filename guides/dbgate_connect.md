@@ -1,3 +1,5 @@
+# Connect DuckDB using DbGate
+
 To open a DuckDB file in DbGate:
 Launch DbGate: Open the DbGate application on your desktop.
 Navigate to Connections: In the DbGate interface, locate the section for managing database connections.

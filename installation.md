@@ -47,8 +47,6 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 [Video: Install VSCode for Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
 
-[Video: Install VSCode for Mac User](hhttps://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
-
 > Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
 ### Install the following vscode extensions (Mac Users)
@@ -57,6 +55,8 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 
 - Python
 - Jupyter
+
+[Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
 
 ### Windows WSL Users Configuring VSCode (Windows WSL Users)
