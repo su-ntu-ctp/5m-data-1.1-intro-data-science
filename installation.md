@@ -135,7 +135,7 @@ To confirm if your github installation is successful, please refer to [Lesson - 
 
 Conda is a package and environment manager that we will be using throughout this program, to manage our Python packages and environments. Miniconda is a lightweight version of the Anaconda distribution, designed for users who prefer a minimal installation. It includes only the essentials: Python, conda (the package and environment manager), and their dependencies. Unlike Anaconda, which comes preloaded with hundreds of scientific packages, Miniconda allows you to install only the packages you need, making it more flexible and less resource-intensive.
 
-### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
+### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
 
 Please note that Anaconda has stopped building packages for Intel Mac. Their official message is as follows:
 
