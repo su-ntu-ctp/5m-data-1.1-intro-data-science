@@ -79,7 +79,7 @@ Select `WSL` at the top panel. Once WSL is launched, you should see your lower r
 [Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
 
 #### Windows User: Alternative Way to Connect VSCode to WSL
-There is an alternative way to connect WSL to VSCode using command. Using the command method, the entire home folder is opened in VSCode. You do not need to open individual git folder. The advantage is that you do not need to open and close each repository. However, the downside is that it does not provide isolation for each repository.
+There is an alternative way to connect WSL to VSCode with the command line interface (CLI). Using the CLI method, the entire home folder is opened in VSCode. You don’t need to open each GitHub folder individually. While this saves time by eliminating the need to constantly open and close repositories, it also comes with a trade‑off: you lose the isolation that separate repositories normally provide.
 
 Here is the process to connect WSL with VSCode using command:
 
@@ -164,11 +164,11 @@ Windows WSL users are able to run the regular Windows version of DBeaver and acc
 ## FAQ
 1. **What Operating System (Windows/Mac/Linux) is recommended for this course?**
 
-- **Ans:** We welcome diversity of Operating System as long as it is the supported version. For Windows users, extra software such as `Windows Subsystem for Linux` is required.
+- **Ans:** We support a variety of operating systems, provided they are actively maintained and compatible with your computer. If you are using Windows, you will need to install the Windows Subsystem for Linux (WSL) to proceed.
 
 2. **What Python version is required?**
 
-- **Ans:** You do not need to concern about the version of Python during installation. We use `conda` to managed different versions of python. 
+- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed. 
 
 3. **I have Anaconda installed do I need to install Miniconda?**
 
@@ -176,11 +176,11 @@ Windows WSL users are able to run the regular Windows version of DBeaver and acc
 
 4. **Can I use Anaconda instead of VSCode?**
 
-- **Ans:** For Windows users, VSCode is preferred since you need to use WSL. VSCode allows you to integrated the IDE with WSL. For Mac users, technically you can use Anaconda instead of VSCode. However, please note that our lesson instructions are written based on VSCode. VScode is more light weight and faster than Anaconda. If you are already familiar with Anaconda, we encourage you to explore VSCode.
+- **Ans:** For Windows users, VSCode is the preferred option because it integrates seamlessly with the WSL. On macOS, you can technically use Anaconda instead of VSCode, but keep in mind that our lesson instructions are designed around VSCode. VSCode is also lighter and faster compared to Anaconda. If you are already comfortable with Anaconda, we still encourage you to give VSCode a try.
 
 5. **I have installed Github Desktop for Mac/Windows, do I still need to install Git?**
 
-- **Ans:** No need. Once the Github software is installed, the git software already there.
+- **Ans:** There’s no extra step required. Once the GitHub software is installed, Git is already included and ready to use.
 
 6. **Can I use Github Desktop for Mac/Windows instead?**
 
