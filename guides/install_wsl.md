@@ -53,16 +53,19 @@ You should have similar setup screen as shown below:
 
 We also use the following command to update Linux system:
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ```
+
+> We use `sudo apt update` instead of `sudo apt-get update` which is an older version.
+
 The first command is to get the update information from Ubuntu. See the quote from Google:
 
-> The `sudo apt-get update` command, run in a Linux terminal, refreshes your system's local package index by downloading the latest package information from software repositories. This allows your system to recognize new versions of software or new packages that have been added to the repositories, but it does not actually install or upgrade any software;
+> The `sudo apt update` command, run in a Linux terminal, refreshes your system's local package index by downloading the latest package information from software repositories. This allows your system to recognize new versions of software or new packages that have been added to the repositories, but it does not actually install or upgrade any software;
 
 Use the following command to get the latest package information:
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 Sample update screen:
@@ -72,7 +75,7 @@ Sample update screen:
 To run the actual update, use the following command
 
 ```bash
-sudo apt-get upgrade
+sudo apt upgrade
 ```
 
 It should be something similar below:
