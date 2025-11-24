@@ -173,29 +173,28 @@ Please make sure you can see 3 records.
 
 
 ## FAQ
-1. What Operating System (Windows/Mac/Linux) is recommended for this course?
+1. **What Operating System (Windows/Mac/Linux) is recommended for this course?**
 
-- **Ans:** We welcome diversity of Operating System as long as it is the supported version. For Windows users, extra software such as `Windows Subsystem for Linux` is required.
+- **Ans:** We support a variety of operating systems, provided they are actively maintained and compatible with your computer. If you are using Windows, you will need to install the Windows Subsystem for Linux (WSL) to proceed.
 
-2. What Python version is required?
+2. **What Python version is required?**
 
-- **Ans:** You do not need to concern about the version of Python during installation. We use `conda` to managed different versions of python. 
+- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed. 
 
-3. I have Anaconda installed do I need to install Miniconda?
+3. **I have Anaconda installed do I need to install Miniconda?**
 
 - **Ans:** No need. Once Anaconda is installed, you can access the same conda environment from VSCode.
 
-4. Can I use Anaconda instead of VSCode?
+4. **Can I use Anaconda instead of VSCode?**
 
-- **Ans:** For Windows users, VSCode is preferred since you need to use WSL. VSCode allows you to integrated the IDE with WSL. For Mac users, technically you can use Anaconda instead of VSCode. However, please note that our lesson instructions are written based on VSCode. VScode is more light weight and faster than Anaconda. If you are already familiar with Anaconda, we encourage you to explore VSCode.
+- **Ans:** For Windows users, VSCode is the preferred option because it integrates seamlessly with the WSL. On macOS, you can technically use Anaconda instead of VSCode, but keep in mind that our lesson instructions are designed around VSCode. VSCode is also lighter and faster compared to Anaconda. If you are already comfortable with Anaconda, we still encourage you to give VSCode a try.
 
-5. I have installed Github Desktop for Mac/Windows, do I still need to install Git?
+5. **I have installed Github Desktop for Mac/Windows, do I still need to install Git?**
 
-- **Ans:** No need. Once the Github software is installed, the git software already there.
+- **Ans:** There’s no extra step required. Once the GitHub software is installed, Git is already included and ready to use.
 
-6. Can I se Github Desktop for Mac/Windows instead?
+6. **Can I use Github Desktop for Mac/Windows instead?**
 
 - **Ans:** We encourage you stick with VSCode as VSCode can be linked to Github. Please note that when you clone a repository into VSCode, it will not be registered or noticeable by Github Desktop Mac/Windows.
-
 
 
