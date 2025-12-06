@@ -36,6 +36,7 @@ Please make sure the extension are installed under `WSL:UBUNTU` instead of `LOCA
 
 [Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
 
+
 #### Windows User: Alternative Way to Connect VSCode to WSL
 There is an alternative way to connect WSL to VSCode with the command line interface (CLI). Using the CLI method, the entire home folder is opened in VSCode. You don’t need to open each GitHub folder individually. While this saves time by eliminating the need to constantly open and close repositories, it also comes with a trade‑off: you lose the isolation that separate repositories normally provide.
 

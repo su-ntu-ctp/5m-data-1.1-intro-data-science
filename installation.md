@@ -58,18 +58,7 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 
 [Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
-#### Windows User: Alternative Way to Connect VSCode to WSL
-There is an alternative way to connect WSL to VSCode with the command line interface (CLI). Using the CLI method, the entire home folder is opened in VSCode. You don’t need to open each GitHub folder individually. While this saves time by eliminating the need to constantly open and close repositories, it also comes with a trade‑off: you lose the isolation that separate repositories normally provide.
-
-Here is the process to connect WSL with VSCode using command:
-
-1. Launch `WSL`.
-2. At `WSL`, use the following command and VSCode will be launched.
-
-```bash
-code .
-```
-
+### Additional Learning Resource
 Please refer to [Reference - VSCode](reference.md#vscode) for more learning resource on VSCode.
 
 ## Git vs GitHub
@@ -181,37 +170,22 @@ Please make sure you can see 3 records.
 
 ## FAQ
 1. **What Operating System (Windows/Mac/Linux) is recommended for this course?**
-1. **What Operating System (Windows/Mac/Linux) is recommended for this course?**
-
-- **Ans:** We support a variety of operating systems, provided they are actively maintained and compatible with your computer. If you are using Windows, you will need to install the Windows Subsystem for Linux (WSL) to proceed.
 - **Ans:** We support a variety of operating systems, provided they are actively maintained and compatible with your computer. If you are using Windows, you will need to install the Windows Subsystem for Linux (WSL) to proceed.
 
 2. **What Python version is required?**
-2. **What Python version is required?**
-
-- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed. 
-- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed. 
+- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed.  
 
 3. **I have Anaconda installed do I need to install Miniconda?**
-3. **I have Anaconda installed do I need to install Miniconda?**
-
 - **Ans:** No need. Once Anaconda is installed, you can access the same conda environment from VSCode.
 
 4. **Can I use Anaconda instead of VSCode?**
-4. **Can I use Anaconda instead of VSCode?**
-
-- **Ans:** For Windows users, VSCode is the preferred option because it integrates seamlessly with the WSL. On macOS, you can technically use Anaconda instead of VSCode, but keep in mind that our lesson instructions are designed around VSCode. VSCode is also lighter and faster compared to Anaconda. If you are already comfortable with Anaconda, we still encourage you to give VSCode a try.
 - **Ans:** For Windows users, VSCode is the preferred option because it integrates seamlessly with the WSL. On macOS, you can technically use Anaconda instead of VSCode, but keep in mind that our lesson instructions are designed around VSCode. VSCode is also lighter and faster compared to Anaconda. If you are already comfortable with Anaconda, we still encourage you to give VSCode a try.
 
 5. **I have installed Github Desktop for Mac/Windows, do I still need to install Git?**
-5. **I have installed Github Desktop for Mac/Windows, do I still need to install Git?**
-
-- **Ans:** There’s no extra step required. Once the GitHub software is installed, Git is already included and ready to use.
 - **Ans:** There’s no extra step required. Once the GitHub software is installed, Git is already included and ready to use.
 
-6. **Can I use Github Desktop for Mac/Windows instead?**
-6. **Can I use Github Desktop for Mac/Windows instead?**
 
+6. **Can I use Github Desktop for Mac/Windows instead?**
 - **Ans:** We encourage you stick with VSCode as VSCode can be linked to Github. Please note that when you clone a repository into VSCode, it will not be registered or noticeable by Github Desktop Mac/Windows.
 
 
