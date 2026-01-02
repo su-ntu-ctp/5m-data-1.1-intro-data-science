@@ -55,6 +55,7 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 
 - Python
 - Jupyter
+- Colab
 
 [Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
@@ -139,7 +140,7 @@ To verify this, your conda command prompt should show `(base) $`
 
 [Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
 
-[Video: Install Miniconda for Mac User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
+[Video: Install Miniconda for Mac User]()
 
 ### Additional Learning Resource
 Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda) for more learning resource on Conda/Miniconda.
