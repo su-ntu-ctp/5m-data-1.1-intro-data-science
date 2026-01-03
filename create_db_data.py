@@ -1,4 +1,11 @@
 import duckdb
+import os
+
+if os.path.exists("test_duck.db"):
+    print('There is already a file created. Exiting program.')
+    print('To repeat the process delete the file test_duck.db')
+    exit(0)
+
 
 con = duckdb.connect("test_duck.db")
 
@@ -31,5 +38,6 @@ con.execute("""
 con.close()
 
 print("Database and table created successfully with sample data.")
+print("Please use DBeaver or DBGate to check for 3 records.")
 
 
