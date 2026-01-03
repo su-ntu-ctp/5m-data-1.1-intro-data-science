@@ -49,15 +49,17 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 > Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
-### Install the following vscode extensions (Mac Users)
+[Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
+
+### Install the following vscode extensions 
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:
 
 - Python
 - Jupyter
 - Colab
+- WSL - (*For Windows/WSL user only:* Auto-install when connect to WSL)
 
-[Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
 ### Additional Learning Resource
 Please refer to [Reference - VSCode](reference.md#vscode) for more learning resource on VSCode.
@@ -95,11 +97,13 @@ To confirm the configuration above
 git config --global --list
 ```
 
-#### Additional config (Mac Users Only)
+#### Additional config (Mac Users Only - Optional)
 Mac users may run the following command to avoid possible error in the future:
 ```bash
 git config --global http.postBuffer 524288000
 ```
+
+If you encounter error in syncing your git repository please use the command above.
 
 ### Connecting VScode with Github
 To connect Github with VSCode, you just need to click `Clone Git Repository` at the `Welcome` page. To access the welcome page, on the menu bar click `Help` > `Welcome`

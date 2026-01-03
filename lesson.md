@@ -73,7 +73,7 @@ conda create -n <env_name> python=<python_version>
 for example:
 
 ```bash
-conda create -n myenv python=3.10
+conda create -n myenv python=3.11
 ```
 
 #### Activate a conda environment

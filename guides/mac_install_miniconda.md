@@ -11,7 +11,6 @@ Step 2 : Download the software
 ```bash
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
 ```
-> Intel Mac users please use different links `https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh`
 
 Step 3 : Install the software 
 ```bash
