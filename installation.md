@@ -23,17 +23,18 @@ Windows users should install WSL which allows you to run Windows and Linux at th
 Most software engineering and development tools are initially developed for Linux and then adapted for Windows. As a result, they often perform better on Linux. Although Windows versions of popular tools are widely available, we strongly recommend using the Linux version whenever possible for optimal performance.
 You must be running Windows 11 or 10 version 2004 and higher. 
 
-Follow the instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install) to install Ubuntu on WSL.
+For a step by step installation instruction guide, please refer to [here](guides/install_wsl.md).
 
+For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
+
+If you encounter issues with the guide above, you can refer to the official installation instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install) to install Ubuntu on WSL.
+
+### Additional Learning Resource
 You can access your WSL files using regular Windows applications, such as File Explorer. While you in your Linux directory, type: 
 
 `explorer.exe .`
 
 Read this [tutorial](https://learn.microsoft.com/en-us/windows/wsl/filesystems) to find out how it works.
-
-For a step by step installation instruction guide, please refer to [here](guides/install_wsl.md).
-
-For a very basic usage guide, please refer to [here](guides/wsl_linux_basics.md)
 
 Please refer to [Reference - WSL on Windows](reference.md#wsl-on-windows) for more learning resource on WSL.
 
@@ -44,52 +45,23 @@ You will need a code editor to write Python or SQL code in the course. VSCode is
 Download and install VSCode [here](https://code.visualstudio.com/download).
 
 
-[Video: Install VSCode for Mac and Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
+[Video: Install VSCode for Windows User](https://drive.google.com/file/d/15s22OloEAY3SMtiFE_uSjCiM73cZD9nW/view?usp=drive_link)
 
+> Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
-### Install the following vscode extensions
+[Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
+
+### Install the following vscode extensions 
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:
 
 - Python
 - Jupyter
-- WSL (*Windows user only*)
+- Colab
+- WSL - (*For Windows/WSL user only:* Auto-install when connect to WSL)
 
-> Windows WSL users, install the Windows version as VSCode will work across both Windows and WSL environments.
 
-### Windows Users Connecting to WSL in VSCode
-Windows WSL users, you can connect to WSL in VScode using the `Connect to` in the `Welcome Page` and select `WSL`. 
-
-![alt text](assets/installation/connect_to.png)
-
-and select `WSL`
-
-![alt text](assets/installation/top_panel.png)
-
-Alternatively, you can also click on the lower left corner of the screen.
-
-![alt text](assets/installation/LR_corner_no_conn.png)
-
-Select `WSL` at the top panel. Once WSL is launched, you should see your lower right corner as shown:
-
-![alt text](assets/installation/LR_corner_conn_wsl.png)
-
-> Note: Please note that you may need to reinstall the Python and Jupyter extensions into the WSL environment. 
-
-[Video: Connect WSL in VSCode](https://drive.google.com/file/d/1BbKKiy_VsBnEd8Y8Ar89zBSHpC_3w-4V/view?usp=drive_link)
-
-#### Windows User: Alternative Way to Connect VSCode to WSL
-There is an alternative way to connect WSL to VSCode with the command line interface (CLI). Using the CLI method, the entire home folder is opened in VSCode. You don’t need to open each GitHub folder individually. While this saves time by eliminating the need to constantly open and close repositories, it also comes with a trade‑off: you lose the isolation that separate repositories normally provide.
-
-Here is the process to connect WSL with VSCode using command:
-
-1. Launch `WSL`.
-2. At `WSL`, use the following command and VSCode will be launched.
-
-```bash
-code .
-```
-
+### Additional Learning Resource
 Please refer to [Reference - VSCode](reference.md#vscode) for more learning resource on VSCode.
 
 ## Git vs GitHub
@@ -102,10 +74,12 @@ We will be using Git extensively in this course and you will need to install the
 
 ### Download and install Git CLI [here](https://git-scm.com/downloads).
 
-For WSL users, git is already installed in Ubuntu. However, you need to configure git. You may read this tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) to understand more about Git in WSL. *You may ignore the Azure setup.*
+For WSL users, git is already installed in Ubuntu. However, you need to configure git. Please follow the config guide below.
+
+[Video: Install Git for Mac User](https://drive.google.com/file/d/1_NdWjc4pqYkuaFqRgYCGI62FoDufK4Bs/view?usp=drive_link)
 
 ### Configure Git (Apply to Mac and Windows User)
-For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` to run the following configuration.
+For Mac users, you need to launch a `terminal` to perform the following configuration. For Windows (WSL) user, please note that you need to launch `WSL` or `Ubuntu` to run the following configuration.
 
 - Launch `WSL` (Windows user) or `terminal` (Mac Users)
 
@@ -123,68 +97,100 @@ To confirm the configuration above
 git config --global --list
 ```
 
+#### Additional config (Mac Users Only - Optional)
+Mac users may run the following command to avoid possible error in the future:
+```bash
+git config --global http.postBuffer 524288000
+```
+
+If you encounter error in syncing your git repository please use the command above.
+
+### Connecting VScode with Github
+To connect Github with VSCode, you just need to click `Clone Git Repository` at the `Welcome` page. To access the welcome page, on the menu bar click `Help` > `Welcome`
+
+Please checkout the video belong which applies for both Mac and Windows user.
+
 [Video: Configuring Git and Using Git in VSCode](https://drive.google.com/file/d/1kyBHa4G4K5bgTBVrA-doMxuZdfXr8jZp/view?usp=drive_link)
 
 > The video above also applies to Windows and Mac user. Only exception is that Windows users are required to connect to WSL first.
 
-Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
+### Additional Learning Resource
+Windows WSL users may read this official tutorial [Get Started using Git on WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) to understand more about Git in WSL. *You may ignore the Azure setup.*
 
-To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone your lesson to your PC.
+Please refer to [Reference - Git and Github](reference.md#git-and-github) for more learning resource on Git and Github.
 
 ## Conda/Miniconda
 
 Conda is a package and environment manager that we will be using throughout this program, to manage our Python packages and environments. Miniconda is a lightweight version of the Anaconda distribution, designed for users who prefer a minimal installation. It includes only the essentials: Python, conda (the package and environment manager), and their dependencies. Unlike Anaconda, which comes preloaded with hundreds of scientific packages, Miniconda allows you to install only the packages you need, making it more flexible and less resource-intensive.
 
-### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
+### Special Notes for Intel Mac
 
 Please note that Anaconda has stopped building packages for Intel Mac. Their official message is as follows:
 
 > As of August 15, 2025, Anaconda has stopped building packages for Intel Mac computers (osx-64). Existing Intel (MacOSX-x86_64) installers are still available at https://repo.anaconda.com/miniconda/ and the last Miniconda installer release for Intel Mac computers will be 25.7.x. For more information, see [our blog](https://www.anaconda.com/blog/intel-mac-package-support-deprecation) on the end of Intel mac support.
 
-For Intel Mac users, you can still download miniconda at https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg. However, please make plan to migrate to Mac with Apple chips.
+For Intel Mac users, you can still download miniconda at https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh. However, please make plan to migrate to Mac with Apple chips.
 
-Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Windows.
+
+### Download and install miniconda [here](https://www.anaconda.com/docs/getting-started/miniconda/main)
+
+> Windows WSL users, please follow instructions for **Linux/Unix**. You must install miniconda in your WSL **Ubuntu** environment, not Windows.
 
 Windows WSL users can also follow the step by step instruction [here](guides/wsl_install_miniconda.md).
+
+Mac users please follow the following guide [here](guides/mac_install_miniconda.md)
 
 To verify this, your conda command prompt should show `(base) $`
 
 [Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
 
+[Video: Install Miniconda for Mac User]()
+
+### Additional Learning Resource
 Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda) for more learning resource on Conda/Miniconda.
 
-## DBeaver
+## DuckDB Browser: DBeaver
 
-We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community 
+We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community. 
 
 Download and install DBeaver Community [here](https://dbeaver.io/download/).
 
-Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
+> Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
+
+> However, there is a limitation in using DBeaver with WSL. You **CANNOT** use CAPS in your file path in **WSL**. DBeaver is not able to convert caps in WSL.
+
+Alternatively, you can use another Duckdb browser called DbGate, you can download and install DbGate Community version [here](https://www.dbgate.io/download-community/) 
+
+## Verification of Installation (Mac and Windows Users)
+- To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone this lesson to your PC. If you manage to clone your repository into your PC, we can confirm the git configuration is good.
+
+- Please refer to the following exercise [here](guides/run_conda_python.md) to see if you can create a conda environment and run a python file to create a test database. Please proceed to next step if you manage to run the command without errors.
+
+- To confirm if you can see the data, open `DBeaver` or `DbGate` and connect to the test database `test_duck.db`. 
+    - For DBeaver user please following the guide [here](guides/dbeaver_connect.md)
+    - For DbGate user please follow the guide [here](guides/dbgate_connect.md)
+
+Please make sure you can see 3 records.
+
 
 ## FAQ
 1. **What Operating System (Windows/Mac/Linux) is recommended for this course?**
-
 - **Ans:** We support a variety of operating systems, provided they are actively maintained and compatible with your computer. If you are using Windows, you will need to install the Windows Subsystem for Linux (WSL) to proceed.
 
 2. **What Python version is required?**
-
-- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed. 
+- **Ans:** You don't need to worry about the version of Python during installation. We use `conda` to managed different versions of python, ensuring compatibility as needed.  
 
 3. **I have Anaconda installed do I need to install Miniconda?**
-
 - **Ans:** No need. Once Anaconda is installed, you can access the same conda environment from VSCode.
 
 4. **Can I use Anaconda instead of VSCode?**
-
 - **Ans:** For Windows users, VSCode is the preferred option because it integrates seamlessly with the WSL. On macOS, you can technically use Anaconda instead of VSCode, but keep in mind that our lesson instructions are designed around VSCode. VSCode is also lighter and faster compared to Anaconda. If you are already comfortable with Anaconda, we still encourage you to give VSCode a try.
 
 5. **I have installed Github Desktop for Mac/Windows, do I still need to install Git?**
-
 - **Ans:** There’s no extra step required. Once the GitHub software is installed, Git is already included and ready to use.
 
+
 6. **Can I use Github Desktop for Mac/Windows instead?**
-
 - **Ans:** We encourage you stick with VSCode as VSCode can be linked to Github. Please note that when you clone a repository into VSCode, it will not be registered or noticeable by Github Desktop Mac/Windows.
-
 
 

@@ -53,16 +53,19 @@ You should have similar setup screen as shown below:
 
 We also use the following command to update Linux system:
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ```
+
+> We use `sudo apt update` instead of `sudo apt-get update` which is an older version.
+
 The first command is to get the update information from Ubuntu. See the quote from Google:
 
-> The `sudo apt-get update` command, run in a Linux terminal, refreshes your system's local package index by downloading the latest package information from software repositories. This allows your system to recognize new versions of software or new packages that have been added to the repositories, but it does not actually install or upgrade any software;
+> The `sudo apt update` command, run in a Linux terminal, refreshes your system's local package index by downloading the latest package information from software repositories. This allows your system to recognize new versions of software or new packages that have been added to the repositories, but it does not actually install or upgrade any software;
 
 Use the following command to get the latest package information:
 ```bash
-sudo apt-get update
+sudo apt update
 ```
 
 Sample update screen:
@@ -72,7 +75,7 @@ Sample update screen:
 To run the actual update, use the following command
 
 ```bash
-sudo apt-get upgrade
+sudo apt upgrade
 ```
 
 It should be something similar below:
@@ -83,7 +86,7 @@ It should be something similar below:
 
 ## Troubleshoot WSL 
 
-- If there is problem with WSL component installation, you can checked and uncheck the component `Virtual Machine Platform`. 
+- If there is problem with WSL component installation, you can unchecked and check the component `Virtual Machine Platform`. 
 
 ![assets/wsl/wsl_component.png](../assets/wsl/wsl_component.png)
 
@@ -93,6 +96,10 @@ It should be something similar below:
 
 >You may also try to uncheck the components first, do a system reboot, then checked them again and do a final system reboot.
 
+- Some learner also encounter issues with the BIOS where you need to enabled them. In that case you need to check how to enable BIOS for your particular laptop.
+
+- Please also visit [this official troubleshooting page](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting) to check for commonly encountered issues. 
+
 - Alternatively, we can also user system component repair by going to `Settings` -> `Apps` -> `Installed Apps`, scroll down to related settings and select  `System Components`. Next, look for `Windows Subsystem for Linux` and click `Advanced options`. You can choose to `repair` or `reset` WSL.
 
 ![assets/wsl/component_repair.png](../assets/wsl/component_repair.png)
@@ -100,6 +107,7 @@ It should be something similar below:
 - Sometimes, the system will prompt for auto-repair during installation as shown below:
 
 ![assets/wsl/wsl_start_error.png](../assets/wsl/wsl_start_error.png)
+ 
 
 - For problems with installation of Ubuntu, you may try the following command:
 ```bash

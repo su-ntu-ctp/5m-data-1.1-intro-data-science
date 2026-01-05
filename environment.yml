@@ -1,0 +1,10 @@
+name: ddb
+channels:
+  - defaults
+dependencies:
+  - python=3.10.12
+  - pip=23.1.2
+  - setuptools=67.8.0
+  - wheel=0.38.4
+  - pip:
+      - duckdb==1.1.3
