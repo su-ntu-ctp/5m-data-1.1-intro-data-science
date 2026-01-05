@@ -144,22 +144,16 @@ To verify this, your conda command prompt should show `(base) $`
 
 [Video: Install Miniconda on WSL for Windows User](https://drive.google.com/file/d/1M6ioKVQ47084fMlXO03U2Aj2z910IFBR/view?usp=drive_link)
 
-[Video: Install Miniconda for Mac User]()
-
 ### Additional Learning Resource
 Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda) for more learning resource on Conda/Miniconda.
 
-## DuckDB Browser: DBeaver
+## DuckDB Browser: DBGate
 
-We will be using DBeaver SQL client throughout this course to connect to databases and write SQL code. The free version is called DBeaver Community. 
+We will be using DBGate SQL client throughout this course to connect to databases and write SQL code. The free version is called DBGate Community. 
 
-Download and install DBeaver Community [here](https://dbeaver.io/download/).
+Download and install DbGate Community version [here](https://www.dbgate.io/download-community/).
 
-> Windows WSL users are able to run the regular Windows version of DBeaver and access the database files stored in the WSL file system.
-
-> However, there is a limitation in using DBeaver with WSL. You **CANNOT** use CAPS in your file path in **WSL**. DBeaver is not able to convert caps in WSL.
-
-Alternatively, you can use another Duckdb browser called DbGate, you can download and install DbGate Community version [here](https://www.dbgate.io/download-community/) 
+Alternatively, you can use another Duckdb browser called Dbeaver, you can download and install DBeaver Community [here](https://dbeaver.io/download/)
 
 ## Verification of Installation (Mac and Windows Users)
 - To confirm if your github installation is successful, please refer to [Lesson - Cloning a Lesson](lesson.md#cloning-a-lesson) and try to clone this lesson to your PC. If you manage to clone your repository into your PC, we can confirm the git configuration is good.
