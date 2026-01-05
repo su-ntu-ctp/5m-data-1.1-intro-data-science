@@ -51,6 +51,8 @@ Download and install VSCode [here](https://code.visualstudio.com/download).
 
 [Video: Install VSCode for Mac User](https://drive.google.com/file/d/1wQY5fhUb7pCo7nHJwbrIP6UCYFNSOkRd/view?usp=drive_link)
 
+For Windows user, please connect to WSL before proceeding with the rest. Please refer to [the guide](guides/wsl_vscode_config.md)
+
 ### Install the following vscode extensions 
 
 Go to the `Extensions` tab, search for the following extensions in the marketplace and install them:

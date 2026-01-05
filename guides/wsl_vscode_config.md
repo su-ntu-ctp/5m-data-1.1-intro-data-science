@@ -31,6 +31,7 @@ Go to the `Extensions` tab, search for the following extensions in the marketpla
 
 - Python
 - Jupyter
+- Colab
 
 Please make sure the extension are installed under `WSL:UBUNTU` instead of `LOCAL`
 
